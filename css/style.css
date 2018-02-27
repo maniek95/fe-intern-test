@@ -1,0 +1,61 @@
+
+body{
+    background-color: #a3c2c2;
+}
+
+h1, h3 , h5, footer{
+    color: #334d4d;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px){ 
+    
+.simple-image-left{
+    float: left;
+    min-width: 350px;
+}
+.simple-image-center{
+    float: center;
+    min-width: 350px;
+    
+}
+.simple-image-right{
+    float: right;
+    min-width: 350px; 
+}
+}
+@media (max-width: 768px) { 
+   
+    .simple-image-left{
+        float: left;
+        max-width: 200px;
+    }
+    .simple-image-center{
+        float: center;
+        max-width: 200px;
+        
+    }
+    .simple-image-right{
+        float: right;
+        max-width: 200px;
+        
+    }
+ }
+
+ @media (max-width: 480px) { 
+    
+   .simple-image-left{
+       float: left;
+       max-width: 350px;
+   }
+   .simple-image-center{
+       float: left;
+       max-width: 350px;
+       
+   }
+   .simple-image-right{
+       float: left;
+       max-width: 350px;
+       
+   }
+ }
