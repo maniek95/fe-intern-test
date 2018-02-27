@@ -33,7 +33,6 @@ var source = [{"width":5616,"height":3744,"author":"Alejandro Escamilla","url":"
 
 //starting fun with fetch from url
 
-
 // const data = fetch('    https://codewise-fe-api.herokuapp.com/photos?offset=10&limit=5&placeholders=1');
 //  data.then(data => data.json());
 // console.log(data);
